@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.img{
+    height: 50%;
+    width: 25%;
+    margin-top:10px;
+}
+
+.timer{
+    font-size: 2em;
+    color:rgb(255, 255, 255);
+    margin-top: -13%;
+}
+
+.containerBtn{
+    margin-top: 12%;
+    display: flex;
+}
+
+.botao{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 5vw;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 5px;
+}
